@@ -1,0 +1,353 @@
+.Navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    /* border: 2px solid rgba(0,0,0,0.2); */
+    border: none; 
+    padding: 5px 5px;
+    word-spacing: 35px;
+    letter-spacing: 5px;
+    margin-top:15px;
+}
+   .Navbar >ul >li{ display: inline-block;
+  font-size: 25px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    /* background: blue; */
+    color: black;
+    text-transform: capitalize;
+    /* transition: all  .3s linear;  */
+    text-shadow: 2px -4px 30px rgba(0,0,0,0.69);
+    
+    
+}
+ /* .Navbar >ul>li:hover{
+  transform: translate(5px ,5px);
+    box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.4);
+    
+}  */
+#pack-head{
+  font-size: 2rem;
+  color: #151516;
+  font-weight: bold;
+ text-shadow: -73px 16px 3px rgba(37,10,10,0.35);
+}
+.packages{
+ display: flex;
+    flex-wrap: wrap;
+     
+    /* height: 100vh;
+    width: 100vw; */
+    /* background: black; */
+    padding: 5px;
+    margin: 5px 5px;
+    /* height: 40vh; */
+}
+
+.package{
+  flex:1 1 35%; /* Adjust as needed */
+  box-sizing: border-box;
+  margin-bottom: 10px; /* Adjust as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color:black;
+  margin: 4px 5px;
+  height: 270px;
+  justify-items: center;
+  align-items: center;
+  color: rgba(243, 232, 232, 0.979);
+  text-transform: capitalize;
+  box-shadow: -6px -3px 25px 18px rgba(0,0,0,0.54);
+-webkit-box-shadow: -6px -3px 25px 18px rgba(0,0,0,0.54);
+-moz-box-shadow: -6px -3px 25px 18px rgba(0,0,0,0.54);
+transition: all 350ms ease-in;
+font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+.package:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgba(13, 22, 25, 0.87);
+    opacity: .9;
+    
+}
+
+.package h3{
+  font-size: 30px;
+}
+.pack1{
+
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url("/Images/bridal.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.pack2{
+   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url("/Images/haldi.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.pack3{
+   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url("/Images/sangeet.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.pack4{
+ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url("/Images/engae.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#home{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  width: 100vw;
+  height: 100vh;
+  background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://lh3.googleusercontent.com/drive-storage/ANtge_FtyzAFt-7MSDgXSoyauf_PZuW1lMjlnUgttMdoQEbJxEpTbhY7BQMRw3mvC4S4QhG77ge3JZcL9kYmGSDKxmtZHTv1EW-pReLw9bmmwA=w1920-h868");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#welcome-head1{
+  text-transform: capitalize;
+  font-family: 'Pacifico', cursive; 
+  font-size: 28px;
+  color: white;
+  margin-bottom: 15px;
+}
+#welcome-head2{
+    text-transform: capitalize;
+  font-size: 2rem;
+  color: white;
+   font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 15px;
+}
+#welcome-head3{
+   text-transform: capitalize;
+  font-size: 32px;
+  font-family: 'Pacifico', cursive; 
+  color: white;
+}
+#ser-head{
+  font-size: 2rem;
+  color: #151516;
+  font-weight: bold;
+ text-shadow: -73px 16px 3px rgba(37,10,10,0.35);
+}
+
+.services{
+ display: flex;
+    flex-wrap: wrap;
+     
+    /* height: 100vh;
+    width: 100vw; */
+    /* background: black; */
+    padding: 3px;
+    margin: 5px 5px;
+    /* height: 40vh; */
+}
+
+.service{
+  flex:1 1 35%; /* Adjust as needed */
+  box-sizing: border-box;
+  margin-bottom: 10px; /* Adjust as needed */
+  padding: 20px;
+  border: 1px solid #080000;
+  border-radius: 15px;
+  /* background-color: #f9f9f9; */
+  margin: 10px 5px;
+  width:70vw;
+  height: 70px;
+  justify-items: center;
+  align-items: center;
+  color:white;
+  text-transform: capitalize;
+  box-shadow: 38px -56px 230px 14px rgba(0,0,0,0.79) inset;
+-webkit-box-shadow: 38px -56px 230px 14px rgba(0,0,0,0.79) inset;
+-moz-box-shadow: 38px -56px 230px 14px rgba(0,0,0,0.79) inset;
+background: #ff0000;
+background: linear-gradient(129deg,#ff0000 0%, #083208 80%);
+background: -webkit-linear-gradient(129deg,#ff0000 0%, #083208 80%);
+background: -moz-linear-gradient(129deg,#ff0000 0%, #083208 80%);
+  
+}
+.service h3{
+  font-size: 15px;
+}
+.section-heading{
+  text-shadow: -73px 16px 3px rgba(37,10,10,0.35);
+}
+.gallery-section {
+    margin-top: 40px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    
+  }
+  .gallery-section > .box {
+    margin: 10px;
+    
+  }
+  .gallery-section > .box > img {
+    width: 240px;
+    aspect-ratio: 1/1;
+    object-fit:cover;
+    transition: all 300ms;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
+  }
+  .gallery-section > .box > img:hover {
+    transform: scale(1.2);
+  }
+  /* .gallery-section  img:hover {
+    transform: scale(1.2);
+  } */
+  .about-section {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .about-img, .about-text {
+    width: 50%;
+  }
+ 
+  .about-img > img {
+    width: 100%;
+  }
+  
+  .footer-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 12px;
+  }
+  .social-icon > i {
+    font-size: 20px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    padding: 6px;
+    margin: 6px;
+    color: grey;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+  }
+  .social-icon > i:hover {
+    color: #151516;
+    border: 1px solid #151516;
+  }
+  #insta-link{
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  #whatsapp-link{
+    font-size: 20px;
+  }
+  .copyright-text {
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+    margin: 0;
+  }
+
+ #changetext{
+    color:#21201e;
+    font-family: 'Pacifico', cursive; 
+    font-weight:lighter;
+    color:RGBA(255,85,0,1);
+    font-size: 50px;
+}
+#changetext::after{
+    content: "";
+    animation-name: changetextcontent;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+}
+@keyframes changetextcontent {
+    10% {content:"Haldi";
+    
+    }
+    
+
+    20%{
+        content: "Engagement";
+
+    }
+    40%{
+        content: "Mehndi";
+    }
+    60%{
+        content: "Bridal";
+    }
+    80%{
+        content: "Phere";
+    }
+   
+    
+}
+
+.error {
+  color: red;
+  margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive; */
+
+/* font-family: 'Kanit', sans-serif; */
+
+/* .barriecito-regular {
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+} */
+/* .lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* .protest-strike-regular {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+ /* font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal; */
