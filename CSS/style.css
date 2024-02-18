@@ -2,30 +2,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 80px;
     /* border: 2px solid rgba(0,0,0,0.2); */
     border: none; 
     padding: 5px 10px;
   
     letter-spacing: 2px;
-    margin-top:15px;
-    margin-bottom: 10px;
+    /* margin-top:15px; */
+    margin-bottom: 8px;
+   background: rgba(0,0,0,0.9);
 }
 #logo-img{
   /* direction: inline-block; */
+  padding-top: 5px;
   /* height: 10px; */
-  height: 90px;
+  height: 100px;
   /* color: black; */
   object-fit: cover;
 
 }
    .Navbar >ul >li{ display: inline-block;
   font-size: 25px;
-  font-family: "Lilita One", sans-serif;
+  font-family: "Protest Strike", sans-serif;
   font-weight: 400;
   font-style: normal;
     /* background: blue; */
-    color: black;
+    color: white;
     text-transform: capitalize;
     /* transition: all  .3s linear;  */
     text-shadow: 2px -4px 30px rgba(0,0,0,0.69);
@@ -128,8 +130,10 @@ font-family: "Poppins", sans-serif;
 }
 #welcome-head1{
   text-transform: capitalize;
-  font-family: 'Pacifico', cursive; 
-  font-size: 28px;
+   font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
   color: white;
   margin-bottom: 15px;
 }
@@ -137,7 +141,7 @@ font-family: "Poppins", sans-serif;
     text-transform: capitalize;
   font-size: 2rem;
   color: white;
-   font-family: "Barriecito", system-ui;
+  font-family: "Anta", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin-bottom: 15px;
@@ -145,7 +149,9 @@ font-family: "Poppins", sans-serif;
 #welcome-head3{
    text-transform: capitalize;
   font-size: 32px;
-  font-family: 'Pacifico', cursive; 
+   font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: white;
 }
 #ser-head{
@@ -307,7 +313,7 @@ background: -moz-linear-gradient(129deg,#ff0000 0%, #083208 80%);
         content: "Bridal";
     }
     80%{
-        content: "Phere";
+        content: "Reception";
     }
    
     
@@ -362,3 +368,9 @@ font-family: 'Pacifico', cursive; */
  /* font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal; */
+
+  /* .anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
